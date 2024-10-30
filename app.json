@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ee2",
-    "slug": "ee2",
+    "name": "my-app",
+    "slug": "exchanges-expo-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.greallra.exchangesexpo2"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,10 +28,25 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1c6e99c1-b836-40db-b30a-4568237d18ad"
+      }
+    },
+    "owner": "greallra"
   }
 }

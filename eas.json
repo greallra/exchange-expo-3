@@ -1,0 +1,64 @@
+{
+  "cli": {
+    "version": ">= 10.2.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_FB_API_KEY": "AIzaSyAkTPwKPtm-6RtWu_PR3LHAuuSx2ISK8bQ",
+        "EXPO_PUBLIC_FB_AUTH_DOMAIN": "exchanges-b4fe1.firebaseapp.com",
+        "EXPO_PUBLIC_FB_PROJECT_ID": "exchanges-b4fe1",
+        "EXPO_PUBLIC_FB_STORAGE_BUCKET": "exchanges-b4fe1.appspot.com",
+        "EXPO_PUBLIC_FB_MESSAGING_SENDER_ID": "306322295860",
+        "EXPO_PUBLIC_FB_APP_ID": "1:306322295860:web:ab052ff6bd340ce14a4e61",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyD852b1zEiQzWCF5QmeDKdbKdv-aFVA154"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_FB_API_KEY": "AIzaSyAkTPwKPtm-6RtWu_PR3LHAuuSx2ISK8bQ",
+        "EXPO_PUBLIC_FB_AUTH_DOMAIN": "exchanges-b4fe1.firebaseapp.com",
+        "EXPO_PUBLIC_FB_PROJECT_ID": "exchanges-b4fe1",
+        "EXPO_PUBLIC_FB_STORAGE_BUCKET": "exchanges-b4fe1.appspot.com",
+        "EXPO_PUBLIC_FB_MESSAGING_SENDER_ID": "306322295860",
+        "EXPO_PUBLIC_FB_APP_ID": "1:306322295860:web:ab052ff6bd340ce14a4e61",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyD852b1zEiQzWCF5QmeDKdbKdv-aFVA154"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_FB_API_KEY": "AIzaSyAkTPwKPtm-6RtWu_PR3LHAuuSx2ISK8bQ",
+        "EXPO_PUBLIC_FB_AUTH_DOMAIN": "exchanges-b4fe1.firebaseapp.com",
+        "EXPO_PUBLIC_FB_PROJECT_ID": "exchanges-b4fe1",
+        "EXPO_PUBLIC_FB_STORAGE_BUCKET": "exchanges-b4fe1.appspot.com",
+        "EXPO_PUBLIC_FB_MESSAGING_SENDER_ID": "306322295860",
+        "EXPO_PUBLIC_FB_APP_ID": "1:306322295860:web:ab052ff6bd340ce14a4e61",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyD852b1zEiQzWCF5QmeDKdbKdv-aFVA154"
+      }
+    },
+    "test": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_FB_API_KEY": "AIzaSyAkTPwKPtm-6RtWu_PR3LHAuuSx2ISK8bQ",
+        "EXPO_PUBLIC_FB_AUTH_DOMAIN": "exchanges-b4fe1.firebaseapp.com",
+        "EXPO_PUBLIC_FB_PROJECT_ID": "exchanges-b4fe1",
+        "EXPO_PUBLIC_FB_STORAGE_BUCKET": "exchanges-b4fe1.appspot.com",
+        "EXPO_PUBLIC_FB_MESSAGING_SENDER_ID": "306322295860",
+        "EXPO_PUBLIC_FB_APP_ID": "1:306322295860:web:ab052ff6bd340ce14a4e61",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyD852b1zEiQzWCF5QmeDKdbKdv-aFVA154"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
